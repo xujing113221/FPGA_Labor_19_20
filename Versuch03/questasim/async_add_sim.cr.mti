@@ -1,0 +1,23 @@
+/home/fpga07/Desktop/FPGA-Labor/Versuch03/testbench/async_adder_tb.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/fpga07/Desktop/FPGA-Labor/Versuch03/testbench/async_adder_tb.vhd
+QuestaSim-64 vcom 2019.2 Compiler 2019.04 Apr 16 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Compiling entity async_adder_tb
+-- Compiling architecture rtl of async_adder_tb
+
+} {} {}} /home/fpga07/Desktop/FPGA-Labor/Versuch03/vhdl/async_adder.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/fpga07/Desktop/FPGA-Labor/Versuch03/vhdl/async_adder.vhd
+QuestaSim-64 vcom 2019.2 Compiler 2019.04 Apr 16 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Compiling entity async_adder
+-- Compiling architecture async of async_adder
+
+} {} {}}

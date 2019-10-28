@@ -1,0 +1,113 @@
+m255
+K4
+z2
+!s11e vcom 2019.2 2019.04, Apr 16 2019
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/fpga07
+T_opt
+!s110 1572009996
+V9Hd[No14Mncj8F1RRP8L^1
+Z1 04 20 3 work sync_counter_func_tb rtl 1
+=5-00012e70dfcc-5db2f80c-1fab8-1dca
+o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;2019.2;69
+R0
+T_opt1
+!s110 1571995284
+V8[DzZGn@1:Zk15>2292LX1
+R1
+=1-00012e0072b6-5db2be94-5514-2504
+o-quiet -auto_acc_if_foreign -work work +acc
+R2
+n@_opt1
+R3
+R0
+Esync_counter_func
+Z4 w1572010096
+Z5 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z6 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z7 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z8 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z9 d/home/fpga07/Desktop/FPGA-Labor/Versuch02/questasim
+Z10 8/home/fpga07/Desktop/FPGA-Labor/Versuch02/vhdl/sync_counter_func.vhdl
+Z11 F/home/fpga07/Desktop/FPGA-Labor/Versuch02/vhdl/sync_counter_func.vhdl
+l0
+L5
+VYo4]fJ:TW`fEkfGdOXoLD3
+!s100 KfVWo=WN7W<56zH4e8bmS1
+Z12 OL;C;2019.2;69
+32
+Z13 !s110 1572010100
+!i10b 1
+Z14 !s108 1572010099.000000
+Z15 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/fpga07/Desktop/FPGA-Labor/Versuch02/vhdl/sync_counter_func.vhdl|
+Z16 !s107 /home/fpga07/Desktop/FPGA-Labor/Versuch02/vhdl/sync_counter_func.vhdl|
+!i113 0
+Z17 o-work work -2002 -explicit
+Z18 tExplicit 1 CvgOpt 0
+Artl
+R5
+R6
+R7
+R8
+DEx4 work 17 sync_counter_func 0 22 Yo4]fJ:TW`fEkfGdOXoLD3
+l19
+L16
+Vl]P:M^WEkLUcUNoKc[0Jb1
+!s100 AXgj1PeQOM;lJSi>mC:M=1
+R12
+32
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 0
+R17
+R18
+Esync_counter_func_tb
+Z19 w1571872676
+R7
+R8
+R9
+Z20 8/home/fpga07/Desktop/FPGA-Labor/Versuch02/testbench/sync_counter_func_tb.vhd
+Z21 F/home/fpga07/Desktop/FPGA-Labor/Versuch02/testbench/sync_counter_func_tb.vhd
+l0
+L4
+V74kl[5f^aMM[YDPSW<LQ21
+!s100 4kV]miLI0LVFGEYCOfoh03
+R12
+32
+R13
+!i10b 1
+Z22 !s108 1572010100.000000
+Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/fpga07/Desktop/FPGA-Labor/Versuch02/testbench/sync_counter_func_tb.vhd|
+Z24 !s107 /home/fpga07/Desktop/FPGA-Labor/Versuch02/testbench/sync_counter_func_tb.vhd|
+!i113 0
+R17
+R18
+Artl
+R7
+R8
+Z25 DEx4 work 20 sync_counter_func_tb 0 22 74kl[5f^aMM[YDPSW<LQ21
+l24
+L7
+Z26 VLW3DPY9Kl^R]7WonbM9Uk2
+Z27 !s100 Ok^[84l9SiZfekR=ICVD:0
+R12
+32
+R13
+!i10b 1
+R22
+R23
+R24
+!i113 0
+R17
+R18

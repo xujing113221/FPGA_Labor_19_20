@@ -1,0 +1,120 @@
+m255
+K4
+z2
+!s11e vcom 2019.2 2019.04, Apr 16 2019
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/fpga07
+T_opt
+!s110 1571994893
+Vh12INGBOfSE?2D9f8HZbR0
+Z1 04 14 3 work async_adder_tb rtl 1
+=1-00012e0072b6-5db2bd0c-ade87-24c7
+o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;2019.2;69
+R0
+T_opt1
+!s110 1571996017
+VjdJgP=LA[a=dIS>OTGD9V1
+R1
+=1-00012e0072b6-5db2c171-41371-259e
+o-quiet -auto_acc_if_foreign -work work
+R2
+n@_opt1
+R3
+Easync_adder
+Z4 w1571945118
+Z5 DPx4 ieee 16 std_logic_signed 0 22 C<aanc0R`<LWPSe[JYRP^3
+Z6 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z7 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z8 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z9 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z10 d/home/fpga07/Desktop/FPGA-Labor/Versuch03/questasim
+Z11 8/home/fpga07/Desktop/FPGA-Labor/Versuch03/vhdl/async_adder.vhd
+Z12 F/home/fpga07/Desktop/FPGA-Labor/Versuch03/vhdl/async_adder.vhd
+l0
+L7
+V8gGC3MFJhX>6]e`MleCJY1
+!s100 1;fQLm]fB>0Tc>_kY>adE3
+Z13 OL;C;2019.2;69
+32
+Z14 !s110 1571994754
+!i10b 1
+Z15 !s108 1571994754.000000
+Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/fpga07/Desktop/FPGA-Labor/Versuch03/vhdl/async_adder.vhd|
+Z17 !s107 /home/fpga07/Desktop/FPGA-Labor/Versuch03/vhdl/async_adder.vhd|
+!i113 0
+Z18 o-work work -2002 -explicit
+Z19 tExplicit 1 CvgOpt 0
+Aasync
+R5
+R6
+R7
+R8
+R9
+DEx4 work 11 async_adder 0 22 8gGC3MFJhX>6]e`MleCJY1
+l16
+L14
+VBD;UVna[YS<lMCUmXN=R50
+!s100 IVZ=T=IPeAYj4N?^hoJBz3
+R13
+32
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 0
+R18
+R19
+Easync_adder_tb
+Z20 w1571920740
+R5
+R6
+R7
+R8
+R9
+R10
+Z21 8/home/fpga07/Desktop/FPGA-Labor/Versuch03/testbench/async_adder_tb.vhd
+Z22 F/home/fpga07/Desktop/FPGA-Labor/Versuch03/testbench/async_adder_tb.vhd
+l0
+L7
+V156[k3e_n3i1hCYBoE:Wn0
+!s100 NZ9RW3dTBWg@Vb1dK;zBf2
+R13
+32
+R14
+!i10b 1
+R15
+Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/fpga07/Desktop/FPGA-Labor/Versuch03/testbench/async_adder_tb.vhd|
+Z24 !s107 /home/fpga07/Desktop/FPGA-Labor/Versuch03/testbench/async_adder_tb.vhd|
+!i113 0
+R18
+R19
+Artl
+R5
+R6
+R7
+R8
+R9
+DEx4 work 14 async_adder_tb 0 22 156[k3e_n3i1hCYBoE:Wn0
+l21
+L11
+VXIaeGTZB`QkURHJT6j8V73
+!s100 ZfLQ4ac:S0YB`]gUb`Ee;2
+R13
+32
+R14
+!i10b 1
+R15
+R23
+R24
+!i113 0
+R18
+R19

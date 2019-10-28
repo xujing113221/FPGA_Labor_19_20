@@ -1,0 +1,93 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "hex0_n[0]",
+					"strict" : false
+				},
+				{
+					"name" : "hex0_n[1]",
+					"strict" : false
+				},
+				{
+					"name" : "hex0_n[2]",
+					"strict" : false
+				},
+				{
+					"name" : "hex0_n[3]",
+					"strict" : false
+				},
+				{
+					"name" : "hex0_n[4]",
+					"strict" : false
+				},
+				{
+					"name" : "hex0_n[5]",
+					"strict" : false
+				},
+				{
+					"name" : "hex0_n[6]",
+					"strict" : false
+				},
+				{
+					"name" : "hex1_n[0]",
+					"strict" : false
+				},
+				{
+					"name" : "hex1_n[3]",
+					"strict" : false
+				},
+				{
+					"name" : "hex1_n[4]",
+					"strict" : false
+				},
+				{
+					"name" : "hex1_n[5]",
+					"strict" : false
+				},
+				{
+					"name" : "hex2_n[6]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "op_a[3]",
+					"strict" : false
+				},
+				{
+					"name" : "op_b[3]",
+					"strict" : false
+				},
+				{
+					"name" : "op_a[2]",
+					"strict" : false
+				},
+				{
+					"name" : "op_b[2]",
+					"strict" : false
+				},
+				{
+					"name" : "op_a[1]",
+					"strict" : false
+				},
+				{
+					"name" : "op_b[1]",
+					"strict" : false
+				},
+				{
+					"name" : "op_a[0]",
+					"strict" : false
+				},
+				{
+					"name" : "op_b[0]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
