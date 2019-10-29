@@ -1,5 +1,5 @@
 Flow report for counter_demo
-Fri Oct 25 10:20:18 2019
+Mon Oct 28 13:36:40 2019
 Quartus Prime Version 18.1.1 Build 646 04/11/2019 SJ Standard Edition
 
 
@@ -41,7 +41,7 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------------------------------------------------------------------+
 ; Flow Summary                                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Flow Status                        ; Successful - Fri Oct 25 10:20:18 2019           ;
+; Flow Status                        ; Successful - Mon Oct 28 13:36:36 2019           ;
 ; Quartus Prime Version              ; 18.1.1 Build 646 04/11/2019 SJ Standard Edition ;
 ; Revision Name                      ; counter_demo                                    ;
 ; Top-level Entity Name              ; counter_demo                                    ;
@@ -65,7 +65,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 10/25/2019 10:07:34 ;
+; Start date & time ; 10/28/2019 13:35:52 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; counter_demo        ;
 +-------------------+---------------------+
@@ -76,13 +76,15 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 5066748598.157199085405226             ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 5074116709.157226615211769             ; --            ; --          ; --         ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --          ; --         ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --          ; --         ;
 ; NOMINAL_CORE_SUPPLY_VOLTAGE         ; 1.2V                                   ; --            ; --          ; --         ;
 ; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; --          ; Top        ;
 ; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --            ; --          ; Top        ;
 ; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --            ; --          ; Top        ;
+; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                    ; --            ; --          ; --         ;
+; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --            ; --          ; --         ;
 ; PROJECT_OUTPUT_DIRECTORY            ; output_files                           ; --            ; --          ; --         ;
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
 
@@ -92,15 +94,11 @@ https://fpgasoftware.intel.com/eula.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:25     ; 1.0                     ; 943 MB              ; 00:00:36                           ;
-; Fitter               ; 00:00:20     ; 1.0                     ; 1454 MB             ; 00:00:23                           ;
-; Assembler            ; 00:00:03     ; 1.0                     ; 828 MB              ; 00:00:04                           ;
-; Timing Analyzer      ; 00:00:03     ; 1.0                     ; 882 MB              ; 00:00:02                           ;
-; Fitter               ; 00:00:21     ; 1.0                     ; 1450 MB             ; 00:00:23                           ;
-; Fitter               ; 00:00:17     ; 1.0                     ; 1456 MB             ; 00:00:17                           ;
-; Timing Analyzer      ; 00:00:03     ; 1.0                     ; 916 MB              ; 00:00:02                           ;
-; Assembler            ; 00:00:05     ; 1.0                     ; 832 MB              ; 00:00:04                           ;
-; Total                ; 00:01:37     ; --                      ; --                  ; 00:01:51                           ;
+; Analysis & Synthesis ; 00:00:24     ; 1.0                     ; 957 MB              ; 00:00:26                           ;
+; Fitter               ; 00:00:14     ; 1.0                     ; 1722 MB             ; 00:00:14                           ;
+; Assembler            ; 00:00:04     ; 1.0                     ; 829 MB              ; 00:00:03                           ;
+; Timing Analyzer      ; 00:00:04     ; 1.0                     ; 913 MB              ; 00:00:02                           ;
+; Total                ; 00:00:46     ; --                      ; --                  ; 00:00:45                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -109,14 +107,10 @@ https://fpgasoftware.intel.com/eula.
 +----------------------+------------------+----------------+------------+----------------+
 ; Module Name          ; Machine Hostname ; OS Name        ; OS Version ; Processor type ;
 +----------------------+------------------+----------------+------------+----------------+
-; Analysis & Synthesis ; id91-023         ; Ubuntu 18.04.3 ; 18         ; x86_64         ;
-; Fitter               ; id91-023         ; Ubuntu 18.04.3 ; 18         ; x86_64         ;
-; Assembler            ; id91-023         ; Ubuntu 18.04.3 ; 18         ; x86_64         ;
-; Timing Analyzer      ; id91-023         ; Ubuntu 18.04.3 ; 18         ; x86_64         ;
-; Fitter               ; id91-023         ; Ubuntu 18.04.3 ; 18         ; x86_64         ;
-; Fitter               ; id91-023         ; Ubuntu 18.04.3 ; 18         ; x86_64         ;
-; Timing Analyzer      ; id91-023         ; Ubuntu 18.04.3 ; 18         ; x86_64         ;
-; Assembler            ; id91-023         ; Ubuntu 18.04.3 ; 18         ; x86_64         ;
+; Analysis & Synthesis ; cip15            ; Ubuntu 18.04.3 ; 18         ; x86_64         ;
+; Fitter               ; cip15            ; Ubuntu 18.04.3 ; 18         ; x86_64         ;
+; Assembler            ; cip15            ; Ubuntu 18.04.3 ; 18         ; x86_64         ;
+; Timing Analyzer      ; cip15            ; Ubuntu 18.04.3 ; 18         ; x86_64         ;
 +----------------------+------------------+----------------+------------+----------------+
 
 
@@ -127,10 +121,6 @@ quartus_map --read_settings_files=on --write_settings_files=off counter_demo -c 
 quartus_fit --read_settings_files=off --write_settings_files=off counter_demo -c counter_demo
 quartus_asm --read_settings_files=off --write_settings_files=off counter_demo -c counter_demo
 quartus_sta counter_demo -c counter_demo
-quartus_fit --read_settings_files=on --write_settings_files=off counter_demo -c counter_demo
-quartus_fit --read_settings_files=on --write_settings_files=off counter_demo -c counter_demo
-quartus_sta counter_demo -c counter_demo
-quartus_asm --read_settings_files=on --write_settings_files=off counter_demo -c counter_demo
 
 
 

@@ -11,7 +11,7 @@ architecture rtl of sync_counter_func_tb is
 	signal reset        :std_ulogic;
 	signal q            :std_logic_vector(3 downto 0);
 	
-component sync_counter_func
+component sync_counter_func_top
     port(
         clock           : in std_ulogic;
         clock_enable    : in std_ulogic;
@@ -22,7 +22,7 @@ component sync_counter_func
 end component;
 
 begin
-	c0:sync_counter_func
+	c0:sync_counter_func_top
 		port map (
 		clock        => clock,
 		clock_enable => clock_enable,
@@ -49,9 +49,9 @@ begin
 	clk: process
 	begin
 		clock    <= '0';
-		wait for T/4;
+		wait for T/2;
 		clock    <= '1';
-		wait for 3*T/4;
+		wait for T/2;
 	end process clk;
 	
 end rtl;

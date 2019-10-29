@@ -1,6 +1,6 @@
 Assembler report for adder_demo
-Fri Oct 25 13:58:57 2019
-Quartus Prime Version 18.1.1 Build 646 04/11/2019 SJ Standard Edition
+Tue Oct 29 21:39:42 2019
+Quartus II 64-Bit Version 15.0.0 Build 145 04/22/2015 SJ Full Version
 
 
 ---------------------
@@ -10,7 +10,7 @@ Quartus Prime Version 18.1.1 Build 646 04/11/2019 SJ Standard Edition
   2. Assembler Summary
   3. Assembler Settings
   4. Assembler Generated Files
-  5. Assembler Device Options: adder_demo.sof
+  5. Assembler Device Options: C:/Users/XuJing/Desktop/FPGA-Labor_nue/Versuch03/quartus/output_files/adder_demo.sof
   6. Assembler Messages
 
 
@@ -18,27 +18,27 @@ Quartus Prime Version 18.1.1 Build 646 04/11/2019 SJ Standard Edition
 ----------------
 ; Legal Notice ;
 ----------------
-Copyright (C) 2019  Intel Corporation. All rights reserved.
-Your use of Intel Corporation's design tools, logic functions 
-and other software and tools, and any partner logic 
+Copyright (C) 1991-2015 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
 functions, and any output files from any of the foregoing 
 (including device programming or simulation files), and any 
 associated documentation or information are expressly subject 
-to the terms and conditions of the Intel Program License 
-Subscription Agreement, the Intel Quartus Prime License Agreement,
-the Intel FPGA IP License Agreement, or other applicable license
-agreement, including, without limitation, that your use is for
-the sole purpose of programming logic devices manufactured by
-Intel and sold by Intel or its authorized distributors.  Please
-refer to the applicable agreement for further details, at
-https://fpgasoftware.intel.com/eula.
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus II License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
 
 
 
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Fri Oct 25 13:58:57 2019 ;
+; Assembler Status      ; Successful - Tue Oct 29 21:39:42 2019 ;
 ; Revision Name         ; adder_demo                            ;
 ; Top-level Entity Name ; adder_demo                            ;
 ; Family                ; Cyclone IV E                          ;
@@ -53,40 +53,40 @@ https://fpgasoftware.intel.com/eula.
 +--------+---------+---------------+
 
 
-+-------------------------------------------------------------------------------+
-; Assembler Generated Files                                                     ;
-+-------------------------------------------------------------------------------+
-; File Name                                                                     ;
-+-------------------------------------------------------------------------------+
-; /home/fpga07/Desktop/FPGA-Labor/Versuch03/quartus/output_files/adder_demo.sof ;
-+-------------------------------------------------------------------------------+
++--------------------------------------------------------------------------------------+
+; Assembler Generated Files                                                            ;
++--------------------------------------------------------------------------------------+
+; File Name                                                                            ;
++--------------------------------------------------------------------------------------+
+; C:/Users/XuJing/Desktop/FPGA-Labor_nue/Versuch03/quartus/output_files/adder_demo.sof ;
++--------------------------------------------------------------------------------------+
 
 
-+------------------------------------------+
-; Assembler Device Options: adder_demo.sof ;
-+----------------+-------------------------+
-; Option         ; Setting                 ;
-+----------------+-------------------------+
-; JTAG usercode  ; 0x005682DD              ;
-; Checksum       ; 0x005682DD              ;
-+----------------+-------------------------+
++----------------------------------------------------------------------------------------------------------------+
+; Assembler Device Options: C:/Users/XuJing/Desktop/FPGA-Labor_nue/Versuch03/quartus/output_files/adder_demo.sof ;
++----------------+-----------------------------------------------------------------------------------------------+
+; Option         ; Setting                                                                                       ;
++----------------+-----------------------------------------------------------------------------------------------+
+; Device         ; EP4CE115F29C7                                                                                 ;
+; JTAG usercode  ; 0x00567DAF                                                                                    ;
+; Checksum       ; 0x00567DAF                                                                                    ;
++----------------+-----------------------------------------------------------------------------------------------+
 
 
 +--------------------+
 ; Assembler Messages ;
 +--------------------+
 Info: *******************************************************************
-Info: Running Quartus Prime Assembler
-    Info: Version 18.1.1 Build 646 04/11/2019 SJ Standard Edition
-    Info: Processing started: Fri Oct 25 13:58:53 2019
+Info: Running Quartus II 64-Bit Assembler
+    Info: Version 15.0.0 Build 145 04/22/2015 SJ Full Version
+    Info: Processing started: Tue Oct 29 21:39:37 2019
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off adder_demo -c adder_demo
-Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (115031): Writing out detailed assembly data for power analysis
 Info (115030): Assembler is generating device programming files
-Info: Quartus Prime Assembler was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 830 megabytes
-    Info: Processing ended: Fri Oct 25 13:58:57 2019
-    Info: Elapsed time: 00:00:04
-    Info: Total CPU time (on all processors): 00:00:03
+Info: Quartus II 64-Bit Assembler was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 4757 megabytes
+    Info: Processing ended: Tue Oct 29 21:39:42 2019
+    Info: Elapsed time: 00:00:05
+    Info: Total CPU time (on all processors): 00:00:05
 
 

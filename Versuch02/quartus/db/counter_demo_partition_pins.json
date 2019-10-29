@@ -48,6 +48,22 @@
 					"strict" : false
 				},
 				{
+					"name" : "led[0]",
+					"strict" : false
+				},
+				{
+					"name" : "led[1]",
+					"strict" : false
+				},
+				{
+					"name" : "led[2]",
+					"strict" : false
+				},
+				{
+					"name" : "led[3]",
+					"strict" : false
+				},
+				{
 					"name" : "clock",
 					"strict" : false
 				},
@@ -56,19 +72,19 @@
 					"strict" : false
 				},
 				{
-					"name" : "key_speed[2]",
+					"name" : "sw[3]",
 					"strict" : false
 				},
 				{
-					"name" : "key_speed[3]",
+					"name" : "sw[2]",
 					"strict" : false
 				},
 				{
-					"name" : "key_speed[1]",
+					"name" : "sw[1]",
 					"strict" : false
 				},
 				{
-					"name" : "key_speed[0]",
+					"name" : "sw[0]",
 					"strict" : false
 				}
 			]

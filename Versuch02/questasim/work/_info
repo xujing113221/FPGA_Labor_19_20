@@ -1,113 +1,359 @@
 m255
 K4
 z2
-!s11e vcom 2019.2 2019.04, Apr 16 2019
 13
 !s112 1.1
 !i10d 8192
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 d/home/fpga07
-T_opt
-!s110 1572009996
-V9Hd[No14Mncj8F1RRP8L^1
-Z1 04 20 3 work sync_counter_func_tb rtl 1
-=5-00012e70dfcc-5db2f80c-1fab8-1dca
-o-quiet -auto_acc_if_foreign -work work
-Z2 tCvgOpt 0
-n@_opt
-Z3 OL;O;2019.2;69
-R0
-T_opt1
-!s110 1571995284
-V8[DzZGn@1:Zk15>2292LX1
+dC:/Users/loven/Desktop/FPGA-Labor/Versuch02/questasim
+Esegment_decoder
+Z0 w1572269570
+Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 dC:/Users/XuJing/Desktop/FPGA-Labor_nue/Versuch02/questasim
+Z5 8C:/Users/XuJing/Desktop/FPGA-Labor_nue/Versuch02/vhdl/segment_decoder.vhdl
+Z6 FC:/Users/XuJing/Desktop/FPGA-Labor_nue/Versuch02/vhdl/segment_decoder.vhdl
+l0
+L17
+VGfDmobfV9bLndk1]biGke1
+!s100 LIDM0Un8M0j[?ml5:noGP0
+Z7 OV;C;10.3d;59
+32
+Z8 !s110 1572378224
+!i10b 1
+Z9 !s108 1572378223.978000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/XuJing/Desktop/FPGA-Labor_nue/Versuch02/vhdl/segment_decoder.vhdl|
+Z11 !s107 C:/Users/XuJing/Desktop/FPGA-Labor_nue/Versuch02/vhdl/segment_decoder.vhdl|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1
+Artl
 R1
-=1-00012e0072b6-5db2be94-5514-2504
-o-quiet -auto_acc_if_foreign -work work +acc
 R2
-n@_opt1
 R3
-R0
+DEx4 work 15 segment_decoder 0 22 GfDmobfV9bLndk1]biGke1
+l38
+L25
+VeX]ZP^km7ko]GUI16RF?`2
+!s100 zg`6MDMlXInm3D7K@EL7^1
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
 Esync_counter_func
-Z4 w1572010096
-Z5 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
-Z6 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
-Z7 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
-Z8 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-Z9 d/home/fpga07/Desktop/FPGA-Labor/Versuch02/questasim
-Z10 8/home/fpga07/Desktop/FPGA-Labor/Versuch02/vhdl/sync_counter_func.vhdl
-Z11 F/home/fpga07/Desktop/FPGA-Labor/Versuch02/vhdl/sync_counter_func.vhdl
+w1572166252
+DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R2
+R3
+R4
+8C:/Users/XuJing/Desktop/FPGA-Labor_nue/Versuch02/vhdl/sync_counter_func.vhdl
+FC:/Users/XuJing/Desktop/FPGA-Labor_nue/Versuch02/vhdl/sync_counter_func.vhdl
 l0
 L5
-VYo4]fJ:TW`fEkfGdOXoLD3
+Vk[iZS5PZOP1;X:d:[@;9S2
 !s100 KfVWo=WN7W<56zH4e8bmS1
-Z12 OL;C;2019.2;69
-32
-Z13 !s110 1572010100
-!i10b 1
-Z14 !s108 1572010099.000000
-Z15 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/fpga07/Desktop/FPGA-Labor/Versuch02/vhdl/sync_counter_func.vhdl|
-Z16 !s107 /home/fpga07/Desktop/FPGA-Labor/Versuch02/vhdl/sync_counter_func.vhdl|
-!i113 0
-Z17 o-work work -2002 -explicit
-Z18 tExplicit 1 CvgOpt 0
-Artl
-R5
-R6
 R7
-R8
-DEx4 work 17 sync_counter_func 0 22 Yo4]fJ:TW`fEkfGdOXoLD3
-l19
-L16
-Vl]P:M^WEkLUcUNoKc[0Jb1
-!s100 AXgj1PeQOM;lJSi>mC:M=1
-R12
 32
-R13
+R8
 !i10b 1
-R14
-R15
-R16
-!i113 0
+!s108 1572378224.508000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/XuJing/Desktop/FPGA-Labor_nue/Versuch02/vhdl/sync_counter_func.vhdl|
+!s107 C:/Users/XuJing/Desktop/FPGA-Labor_nue/Versuch02/vhdl/sync_counter_func.vhdl|
+!i113 1
+R12
+R13
+Esync_counter_func_countdown_1
+Z14 w1572269048
+R1
+R2
+R3
+R4
+Z15 8C:/Users/XuJing/Desktop/FPGA-Labor_nue/Versuch02/vhdl/sync_counter_func_countdown_1.vhdl
+Z16 FC:/Users/XuJing/Desktop/FPGA-Labor_nue/Versuch02/vhdl/sync_counter_func_countdown_1.vhdl
+l0
+L6
+VE`W>2gM[hg9oe5PVl3keV0
+!s100 n0eF8XY@ZiemfWBKQ]NH_3
+R7
+32
+R8
+!i10b 1
+Z17 !s108 1572378224.612000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/XuJing/Desktop/FPGA-Labor_nue/Versuch02/vhdl/sync_counter_func_countdown_1.vhdl|
+Z19 !s107 C:/Users/XuJing/Desktop/FPGA-Labor_nue/Versuch02/vhdl/sync_counter_func_countdown_1.vhdl|
+!i113 1
+R12
+R13
+Artl
+R1
+R2
+R3
+DEx4 work 29 sync_counter_func_countdown_1 0 22 E`W>2gM[hg9oe5PVl3keV0
+l21
+L17
+VH;MkDA]V<>8]:fMc@jLEo0
+!s100 :hY`V7Gab_8o]GmgGU[Tn3
+R7
+32
+R8
+!i10b 1
 R17
 R18
-Esync_counter_func_tb
-Z19 w1571872676
+R19
+!i113 1
+R12
+R13
+Esync_counter_func_countdown_2
+Z20 w1572268864
+R1
+R2
+R3
+R4
+Z21 8C:/Users/XuJing/Desktop/FPGA-Labor_nue/Versuch02/vhdl/sync_counter_func_countdown_2.vhdl
+Z22 FC:/Users/XuJing/Desktop/FPGA-Labor_nue/Versuch02/vhdl/sync_counter_func_countdown_2.vhdl
+l0
+L6
+V`ld4QCWA<`nLX<Q_=Wzhi0
+!s100 SZSXK62Az6FNkb?YT4[SO1
 R7
-R8
-R9
-Z20 8/home/fpga07/Desktop/FPGA-Labor/Versuch02/testbench/sync_counter_func_tb.vhd
-Z21 F/home/fpga07/Desktop/FPGA-Labor/Versuch02/testbench/sync_counter_func_tb.vhd
+32
+Z23 !s110 1572378225
+!i10b 1
+Z24 !s108 1572378225.204000
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/XuJing/Desktop/FPGA-Labor_nue/Versuch02/vhdl/sync_counter_func_countdown_2.vhdl|
+Z26 !s107 C:/Users/XuJing/Desktop/FPGA-Labor_nue/Versuch02/vhdl/sync_counter_func_countdown_2.vhdl|
+!i113 1
+R12
+R13
+Artl
+R1
+R2
+R3
+DEx4 work 29 sync_counter_func_countdown_2 0 22 `ld4QCWA<`nLX<Q_=Wzhi0
+l20
+L16
+VE1_nn<RZB:]m=8>CPK;C80
+!s100 7YFM6:ATD`5J>:I7CD`Q=1
+R7
+32
+R23
+!i10b 1
+R24
+R25
+R26
+!i113 1
+R12
+R13
+Esync_counter_func_light
+Z27 w1572268724
+R1
+R2
+R3
+R4
+Z28 8C:/Users/XuJing/Desktop/FPGA-Labor_nue/Versuch02/vhdl/sync_counter_func_light.vhdl
+Z29 FC:/Users/XuJing/Desktop/FPGA-Labor_nue/Versuch02/vhdl/sync_counter_func_light.vhdl
+l0
+L6
+VQ^7S6DfWolhm]XGzXLbAo3
+!s100 mcnZ^Q@ZzB;Oz5Ab7^Xj82
+R7
+32
+R23
+!i10b 1
+Z30 !s108 1572378225.740000
+Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/XuJing/Desktop/FPGA-Labor_nue/Versuch02/vhdl/sync_counter_func_light.vhdl|
+Z32 !s107 C:/Users/XuJing/Desktop/FPGA-Labor_nue/Versuch02/vhdl/sync_counter_func_light.vhdl|
+!i113 1
+R12
+R13
+Artl
+R1
+R2
+R3
+DEx4 work 23 sync_counter_func_light 0 22 Q^7S6DfWolhm]XGzXLbAo3
+l20
+L16
+VEUmoj9jI045KgU^4?fGR83
+!s100 gCg2G_iC4Uo6?V^JMf>=f0
+R7
+32
+R23
+!i10b 1
+R30
+R31
+R32
+!i113 1
+R12
+R13
+Esync_counter_func_normal
+Z33 w1572269284
+R1
+R2
+R3
+R4
+Z34 8C:/Users/XuJing/Desktop/FPGA-Labor_nue/Versuch02/vhdl/sync_counter_func_normal.vhdl
+Z35 FC:/Users/XuJing/Desktop/FPGA-Labor_nue/Versuch02/vhdl/sync_counter_func_normal.vhdl
+l0
+L7
+V:KdcQc?LkeHbe7c00LUaC1
+!s100 KU>UJaVK=_?cVlMiK6i9_1
+R7
+32
+Z36 !s110 1572378226
+!i10b 1
+Z37 !s108 1572378226.289000
+Z38 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/XuJing/Desktop/FPGA-Labor_nue/Versuch02/vhdl/sync_counter_func_normal.vhdl|
+Z39 !s107 C:/Users/XuJing/Desktop/FPGA-Labor_nue/Versuch02/vhdl/sync_counter_func_normal.vhdl|
+!i113 1
+R12
+R13
+Artl
+R1
+R2
+R3
+DEx4 work 24 sync_counter_func_normal 0 22 :KdcQc?LkeHbe7c00LUaC1
+l22
+L18
+VZOzCM]Iln5d:JKZi<1lFc1
+!s100 1nD1E4B39:bZj90jk=3]X0
+R7
+32
+R36
+!i10b 1
+R37
+R38
+R39
+!i113 1
+R12
+R13
+Esync_counter_func_reset_5
+Z40 w1572269126
+R1
+R2
+R3
+R4
+Z41 8C:/Users/XuJing/Desktop/FPGA-Labor_nue/Versuch02/vhdl/sync_counter_func_reset_5.vhdl
+Z42 FC:/Users/XuJing/Desktop/FPGA-Labor_nue/Versuch02/vhdl/sync_counter_func_reset_5.vhdl
+l0
+L7
+VII_<PNndQln_L5nFdBj>o3
+!s100 QzAleO;e`e6V5iBMiI6633
+R7
+32
+R36
+!i10b 1
+Z43 !s108 1572378226.940000
+Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/XuJing/Desktop/FPGA-Labor_nue/Versuch02/vhdl/sync_counter_func_reset_5.vhdl|
+Z45 !s107 C:/Users/XuJing/Desktop/FPGA-Labor_nue/Versuch02/vhdl/sync_counter_func_reset_5.vhdl|
+!i113 1
+R12
+R13
+Artl
+R1
+R2
+R3
+DEx4 work 25 sync_counter_func_reset_5 0 22 II_<PNndQln_L5nFdBj>o3
+l21
+L17
+VYROeX1i[Xbkb?Si43YBMZ2
+!s100 [5gR`3zbI1Be7k99_iAXG0
+R7
+32
+R36
+!i10b 1
+R43
+R44
+R45
+!i113 1
+R12
+R13
+Esync_counter_func_tb
+Z46 w1572364928
+R2
+R3
+R4
+Z47 8C:/Users/XuJing/Desktop/FPGA-Labor_nue/Versuch02/testbench/sync_counter_func_tb.vhd
+Z48 FC:/Users/XuJing/Desktop/FPGA-Labor_nue/Versuch02/testbench/sync_counter_func_tb.vhd
 l0
 L4
-V74kl[5f^aMM[YDPSW<LQ21
+VEPC]jkon`U^?Z7fh]c>Gd1
 !s100 4kV]miLI0LVFGEYCOfoh03
-R12
-32
-R13
-!i10b 1
-Z22 !s108 1572010100.000000
-Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/fpga07/Desktop/FPGA-Labor/Versuch02/testbench/sync_counter_func_tb.vhd|
-Z24 !s107 /home/fpga07/Desktop/FPGA-Labor/Versuch02/testbench/sync_counter_func_tb.vhd|
-!i113 0
-R17
-R18
-Artl
 R7
-R8
-Z25 DEx4 work 20 sync_counter_func_tb 0 22 74kl[5f^aMM[YDPSW<LQ21
+32
+Z49 !s110 1572378223
+!i10b 1
+Z50 !s108 1572378223.316000
+Z51 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/XuJing/Desktop/FPGA-Labor_nue/Versuch02/testbench/sync_counter_func_tb.vhd|
+Z52 !s107 C:/Users/XuJing/Desktop/FPGA-Labor_nue/Versuch02/testbench/sync_counter_func_tb.vhd|
+!i113 1
+R12
+R13
+Artl
+R2
+R3
+DEx4 work 20 sync_counter_func_tb 0 22 EPC]jkon`U^?Z7fh]c>Gd1
 l24
 L7
-Z26 VLW3DPY9Kl^R]7WonbM9Uk2
-Z27 !s100 Ok^[84l9SiZfekR=ICVD:0
-R12
+VARSd=czc7R8e3H3mcTKD01
+!s100 2Y;oS7TlEc3Qa2CK9iG6B0
+R7
 32
-R13
+R49
 !i10b 1
-R22
-R23
-R24
-!i113 0
-R17
-R18
+R50
+R51
+R52
+!i113 1
+R12
+R13
+Esync_counter_func_top
+Z53 w1572269684
+R1
+R2
+R3
+R4
+Z54 8C:/Users/XuJing/Desktop/FPGA-Labor_nue/Versuch02/vhdl/sync_counter_func_top.vhdl
+Z55 FC:/Users/XuJing/Desktop/FPGA-Labor_nue/Versuch02/vhdl/sync_counter_func_top.vhdl
+l0
+L7
+Vzim1PSM_iimT6D@z6z9Nn1
+!s100 [WGKb1KYh7=IH7;kAU4_31
+R7
+32
+Z56 !s110 1572378227
+!i10b 1
+Z57 !s108 1572378227.515000
+Z58 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/XuJing/Desktop/FPGA-Labor_nue/Versuch02/vhdl/sync_counter_func_top.vhdl|
+Z59 !s107 C:/Users/XuJing/Desktop/FPGA-Labor_nue/Versuch02/vhdl/sync_counter_func_top.vhdl|
+!i113 1
+R12
+R13
+Artl
+R1
+R2
+R3
+DEx4 work 21 sync_counter_func_top 0 22 zim1PSM_iimT6D@z6z9Nn1
+l77
+L17
+V]T2BX0l<Re=RXkEG5:lFh1
+!s100 nlSm69Be<W@4IFZ2PGDZW0
+R7
+32
+R56
+!i10b 1
+R57
+R58
+R59
+!i113 1
+R12
+R13

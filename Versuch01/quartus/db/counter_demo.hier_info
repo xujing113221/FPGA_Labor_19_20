@@ -3,20 +3,20 @@ clock => sync_counter:sync_C.clock
 clock => enableGen:ena_Gen.clk
 key3_n => enableGen:ena_Gen.nReset
 key3_n => sync_counter:sync_C.reset
-hex0_n[0] << segment_decoder:seg.hex0_n[0]
-hex0_n[1] << segment_decoder:seg.hex0_n[1]
-hex0_n[2] << segment_decoder:seg.hex0_n[2]
-hex0_n[3] << segment_decoder:seg.hex0_n[3]
-hex0_n[4] << segment_decoder:seg.hex0_n[4]
-hex0_n[5] << segment_decoder:seg.hex0_n[5]
-hex0_n[6] << segment_decoder:seg.hex0_n[6]
-hex1_n[0] << segment_decoder:seg.hex1_n[0]
-hex1_n[1] << segment_decoder:seg.hex1_n[1]
-hex1_n[2] << segment_decoder:seg.hex1_n[2]
-hex1_n[3] << segment_decoder:seg.hex1_n[3]
-hex1_n[4] << segment_decoder:seg.hex1_n[4]
-hex1_n[5] << segment_decoder:seg.hex1_n[5]
-hex1_n[6] << segment_decoder:seg.hex1_n[6]
+hex0_n[0] <= segment_decoder:seg.hex0_n[0]
+hex0_n[1] <= segment_decoder:seg.hex0_n[1]
+hex0_n[2] <= segment_decoder:seg.hex0_n[2]
+hex0_n[3] <= segment_decoder:seg.hex0_n[3]
+hex0_n[4] <= segment_decoder:seg.hex0_n[4]
+hex0_n[5] <= segment_decoder:seg.hex0_n[5]
+hex0_n[6] <= segment_decoder:seg.hex0_n[6]
+hex1_n[0] <= segment_decoder:seg.hex1_n[0]
+hex1_n[1] <= segment_decoder:seg.hex1_n[1]
+hex1_n[2] <= segment_decoder:seg.hex1_n[2]
+hex1_n[3] <= segment_decoder:seg.hex1_n[3]
+hex1_n[4] <= segment_decoder:seg.hex1_n[4]
+hex1_n[5] <= segment_decoder:seg.hex1_n[5]
+hex1_n[6] <= segment_decoder:seg.hex1_n[6]
 
 
 |counter_demo|sync_counter:sync_C

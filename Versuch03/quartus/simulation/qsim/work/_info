@@ -1,0 +1,50 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/XuJing/Desktop/FPGAL_Labor/Versuch03/quartus/simulation/qsim
+vadder_demo
+Z1 !s110 1571938471
+!i10b 1
+!s100 z3g_z@elV37FUDH<k;;?o1
+IIAAof6HlDafGAUgmR;BSi2
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+R0
+w1571938470
+8adder_demo.vo
+Fadder_demo.vo
+L0 32
+Z3 OV;L;10.3d;59
+r1
+!s85 0
+31
+!s108 1571938471.598000
+!s107 adder_demo.vo|
+!s90 -work|work|adder_demo.vo|
+!i113 1
+Z4 o-work work
+vadder_demo_vlg_vec_tst
+R1
+!i10b 1
+!s100 V3o7H6ehdK_P[COPT=JVg0
+I_ZRT03N?kVj4z^SofOKDV0
+R2
+R0
+w1571938468
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 30
+R3
+r1
+!s85 0
+31
+!s108 1571938471.705000
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R4

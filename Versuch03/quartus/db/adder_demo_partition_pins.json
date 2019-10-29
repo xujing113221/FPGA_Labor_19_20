@@ -52,15 +52,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "clk",
-					"strict" : false
-				},
-				{
-					"name" : "op_a[3]",
-					"strict" : false
-				},
-				{
-					"name" : "op_b[3]",
+					"name" : "op_b[2]",
 					"strict" : false
 				},
 				{
@@ -68,7 +60,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "op_b[2]",
+					"name" : "op_b[1]",
 					"strict" : false
 				},
 				{
@@ -76,7 +68,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "op_b[1]",
+					"name" : "op_b[0]",
 					"strict" : false
 				},
 				{
@@ -84,7 +76,11 @@
 					"strict" : false
 				},
 				{
-					"name" : "op_b[0]",
+					"name" : "op_b[3]",
+					"strict" : false
+				},
+				{
+					"name" : "op_a[3]",
 					"strict" : false
 				}
 			]

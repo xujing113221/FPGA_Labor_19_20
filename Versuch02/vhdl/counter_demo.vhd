@@ -25,7 +25,7 @@ component segment_decoder is
 		);
 end component;
 
-component sync_counter_func is
+component sync_counter_func_top is
 	port (
 		  clock        : in std_ulogic;
         clock_enable : in std_ulogic;
@@ -37,65 +37,52 @@ end component;
 
 component enableGen
 	port(
-		  resetValue_in : in std_logic_vector(25 downto 0);
+		  resetValue_in : in std_ulogic_vector(25 downto 0);
 		  clk           : in std_ulogic;
 		  nReset        : in std_ulogic;
 		  clkEnable_out : out std_ulogic
 		 );
 end component;
 
-constant FREQ_10HZ : std_logic_vector(25 downto 0)  := conv_std_logic_vector(5000000,26);
-constant FREQ_8HZ : std_logic_vector(25 downto 0)   := conv_std_logic_vector(6250000,26);
-constant FREQ_5HZ : std_logic_vector(25 downto 0)   := conv_std_logic_vector(10000000,26);
-constant FREQ_2HZ : std_logic_vector(25 downto 0)   := conv_std_logic_vector(25000000,26);
-constant FREQ_1HZ : std_logic_vector(25 downto 0)   := conv_std_logic_vector(50000000,26);
+constant FREQ_10HZ : std_ulogic_vector(25 downto 0)  := to_stdulogicvector(conv_std_logic_vector(5000000,26));
+constant FREQ_8HZ : std_ulogic_vector(25 downto 0)   := to_stdulogicvector(conv_std_logic_vector(6250000,26));
+constant FREQ_5HZ : std_ulogic_vector(25 downto 0)   := to_stdulogicvector(conv_std_logic_vector(10000000,26));
+constant FREQ_2HZ : std_ulogic_vector(25 downto 0)   := to_stdulogicvector(conv_std_logic_vector(25000000,26));
+constant FREQ_1HZ : std_ulogic_vector(25 downto 0)   := to_stdulogicvector(conv_std_logic_vector(50000000,26));
 
 signal q_to_data : std_ulogic_vector(3 downto 0);
-signal out_to_clkena : std_ulogic;
-signal speed_ctl : std_logic_vector(25 downto 0) := FreQ_1HZ; 
+signal out_to_clkena : std_ulogic; 
+signal frequency : std_ulogic_vector(25 downto 0):= FreQ_1HZ;
 
 
-begin
-				
-	sync_C: sync_counter_func
+begin		
+	sync_C: sync_counter_func_top
 	port map (
-	          clock        => clock,
-				 reset        => not key3_n,
-				 clock_enable => out_to_clkena,
-				 q            => q_to_data
-	          );
+		clock        => clock,
+		reset        => not key3_n,
+		clock_enable => out_to_clkena,
+		q            => q_to_data
+		);
 				 
 	ena_Gen : enableGen
 	port map(
-				resetValue_in => speed_ctl,
-				clk           => clock,      
-				nReset        => key3_n,
-				clkEnable_out => out_to_clkena
-				); 
+		resetValue_in => frequency,
+		clk           => clock,      
+		nReset        => key3_n,
+		clkEnable_out => out_to_clkena
+		); 
 				
 	seg : segment_decoder
 	port map(
-	         data      => q_to_data,
-				hex0_n    => hex0_n,
-				hex1_n    => hex1_n
-			   );
+	   data      => q_to_data,
+		hex0_n    => hex0_n,
+		hex1_n    => hex1_n
+		);
 	
-	speed_ctl <= FREQ_2HZ when key_speed = "0001" else
+	frequency <= FREQ_2HZ when key_speed = "0001" else
 					 FREQ_5HZ when key_speed = "0010" else
 					 FREQ_8HZ when key_speed = "0100" else 
 					 FREQ_10HZ when key_speed = "1000" else
-					 FREQ_1HZ;
-
---	speed: process(key_s0, key_s1, key_s2)
---	begin 
---		if (key_s0 = '0') then
---			speed_ctl <= FREQ_1HZ;
---		elsif key_s1 = '0' then
---			speed_ctl <= FREQ_2HZ;
---		elsif key_s2 <= '0' then
---			speed_ctl <= FREQ_5HZ;
---		end if;
---	end process speed;
-	
-				
+					 FREQ_1HZ;	
+		
 end rtl;
